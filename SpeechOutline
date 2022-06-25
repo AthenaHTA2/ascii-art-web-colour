@@ -1,0 +1,27 @@
+* The name of the project I am presenting today is 'ascii-art-color'.
+I was the team captain, and my team members were Jack and Luis.
+
+This application converts printable ASCII symbols - such as numbers, letters, parentheses, special characters... - 
+into (ascii art) images, and applies colour to the images.
+
+* The application has three distinct inputs:
+
+1) The terminal command which includes a string, and a flag that specifies the colour and the position of letters to be coloured. 
+2) A text file that contains (ascii art) images.
+3) A map of colours and their corresponding escape codes and colour code notations (e.g. RGB) to be used in the print formula.
+
+* These inputs are combined as follows:
+
+The algorithm makes a map where the keys are the decimal numbers corresponding to ascii symbols, and the map values are the images' lines.
+The print formula applies the escape code and RGB notations to the map values corresponding to each letter in the string provided.
+
+* Team cooperation:
+
+Each member of the team had independently researched the project, hence we were able to choose amongst different solutions.
+For example Jack contributed the draft colour notation syntax, while Luis provided the blueprint algorithm used to colour distinct letters. I added additional features, for instance have strengthened the colour notation by adding the colour orange which was previously missing, further have changed the algorithm so that it could colour non-adjoining letters. Additionally I ensured that the code could perform in a variety of scenarios, including missing or bad user inputs.
+
+* The next step for this project could be making a web site gui with the same functionality.
+
+
+
+
